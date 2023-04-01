@@ -1,10 +1,14 @@
 import java.util.Scanner;
-public class White_Triangle{//White_Triangle是空心三角形的意思（可能，大概.jpg）
+public class White_Triangle{
 	public static void main(String [] args){
+	//   *1
+	//  ***3
+	// *****5
+	//*******7
 	int i , j ;
 	Scanner input = new Scanner(System.in);
 	System.out.print("please input plies:");
-	int plies =input.nextInt();//输入层数
+	int plies =input.nextInt();
 	for(i = 0; i < plies; i++){
 		for(int k = 0 ; k < plies  - 1 -i ; k++){
 			System.out.print(" ");//打印*前面的空格
@@ -19,12 +23,5 @@ public class White_Triangle{//White_Triangle是空心三角形的意思（可能
 		System.out.println();//打印完一行换行
 	}
 	
-	}
-}
-for(i = 0 , i < plies ; i++)
-{
-	for (j = 0 ; j < 2 * i + 1; j++)
-	{
-		System.ou.print("*");
 	}
 }
